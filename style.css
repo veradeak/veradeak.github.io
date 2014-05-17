@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Marcellus SC', serif;
+	color: #6d6d6d;
+}
+header{
+	margin-top: 10px;
+	margin-bottom: 8px;
+	font-size: 50px;
+}
+
+footer{
+	margin-top: 5px;
+	float:right;
+}
+
+.centered{
+	width:1200px; 
+	margin:0 auto;
+	color: #6d6d6d;
+}
+
+.divider{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 1px;
+	background-color: #6d6d6d;
+	width: 1200px;
+}
+.menu{
+	min-height: 43px;
+}
+
+div ul{
+	border: 1px solid #6d6d6d;;
+	float:left;
+	width:1198px;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+div ul li a{
+	color: #6d6d6d;
+	font-size: 20px;
+	float:left;
+	width:170px;
+	text-decoration:none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+	border-right:1px solid #6d6d6d;
+}
+a:hover {
+	/*background-color:#E1E1E1;*/
+	float:left;
+}
+li {
+	display:inline;
+}
+
+#imgplaceholder{
+	width: 1200px;
+	height: 675px;
+	background-image:url('images/bck_art.jpg');
+}
+
+#gallery{
+	position: absolute;
+	top: 656px;
+	background-color: rgba(255,255,255,0.8);
+	height: 130px;
+	width: 1200px;
+}
+.galleryitem{
+	float: left;
+	height: 130px;
+}
+
+
+.fixed-bar {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.left_me{
+	float: left;
+	position: relative;
+}
+
+.right_me{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+    position: relative;
+    text-align: left;
+    width: 680px;
+}

@@ -1,0 +1,321 @@
+$("#portfolio").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_portfolio.jpg)"); 
+	$("#gallery").empty()
+	var pics = [
+		{
+			title:'Szoveg1',
+			src:'portfolio_1.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_2.jpg'
+		},
+		{
+			title:'Szoveg3',
+			src:'portfolio_3.jpg'
+		},
+		{
+			title:'Szoveg4',
+			src:'portfolio_4.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_5.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_6.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_7.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_8.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_9.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_10.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_11.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'portfolio_12.jpg'
+		}
+	];
+	for(i in pics){
+		var divStr = "<div class=\"galleryitem\"><a  rel=\"gallery1\" id=\"port" + i + "\" title=\"" + pics[i].title + "\" href=\"images/" + pics[i].src + "\"><img src=\"images/thumb_" + pics[i].src + "\"/></a></div>";
+		$("#gallery").append(divStr);
+		
+		$("#inline").fancybox({
+			'hideOnContentClick': true
+		});
+	}
+
+	$("#gallery .galleryitem a").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+	});
+
+});
+
+$("#bands").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_bands.jpg)"); 
+	$("#gallery").empty()
+	var pics = [
+		{
+			title:'Paddy and the Rats',
+			src:'bands_1.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_2.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_3.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_4.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_5.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_6.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_7.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_8.jpg'
+		},
+		{
+			title:'Paddy and the Rats',
+			src:'bands_9.jpg'
+		},
+		{
+			title:'Nemjuci',
+			src:'bands_10.jpg'
+		},
+		{
+			title:'Nemjuci',
+			src:'bands_11.jpg'
+		},
+		{
+			title:'Firkin',
+			src:'bands_12.jpg'
+		},
+		{
+			title:'Firkin',
+			src:'bands_13.jpg'
+		}, 
+		{
+			title:'Firkin',
+			src:'bands_14.jpg'
+		}, 
+		{
+			title:'Supernem',
+			src:'bands_15.jpg'
+		},
+		{
+			title:'Supernem',
+			src:'bands_16.jpg'
+		},
+		{
+			title:'Supernem',
+			src:'bands_17.jpg'
+		},
+		{
+			title:'Supernem',
+			src:'bands_18.jpg'
+		},
+		{
+			title:'Supernem',
+			src:'bands_19.jpg'
+		},
+		{
+			title:'Supernem',
+			src:'bands_20.jpg'
+		}
+		
+	];
+	for(i in pics){
+		var divStr = "<div class=\"galleryitem\"><a rel=\"gallery1\" id=\"port" + i + "\" title=\"" + pics[i].title + "\" href=\"images/" + pics[i].src + "\"><img src=\"images/thumb_" + pics[i].src + "\"/></a></div>";
+		$("#gallery").append(divStr);
+		
+		$("#inline").fancybox({
+			'hideOnContentClick': true
+		});
+	}
+	$("#gallery .galleryitem a").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+	});
+});
+
+$("#events").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_events.jpg)"); 
+	$("#gallery").empty()
+	var pics = [
+		{
+			title:'Szoveg1',
+			src:'events_1.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'events_2.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'events_3.jpg'
+		}
+	];
+	for(i in pics){
+		var divStr = "<div class=\"galleryitem\"><a rel=\"gallery1\" id=\"port" + i + "\" title=\"" + pics[i].title + "\" href=\"images/" + pics[i].src + "\"><img src=\"images/thumb_" + pics[i].src + "\"/></a></div>";
+		$("#gallery").append(divStr);
+
+		$("#inline").fancybox({
+			'hideOnContentClick': true
+		});
+
+		/* Apply fancybox to multiple items */
+
+	}
+	$("#gallery .galleryitem a").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+	});
+});
+
+$("#art").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_art.jpg)"); 
+	$("#gallery").empty()
+	var pics = [
+		{
+			title:'Beauty in darkness',
+			src:'art_1.jpg'
+		},
+		{
+			title:'Szoveg2',
+			src:'art_2.jpg'
+		},
+		{
+			title:'Szoveg3',
+			src:'art_3.jpg'
+		}
+	];
+	for(i in pics){
+		var divStr = "<div class=\"galleryitem\"><a rel=\"gallery1\" id=\"port" + i + "\" title=\"" + pics[i].title + "\" href=\"images/" + pics[i].src + "\"><img src=\"images/thumb_" + pics[i].src + "\"/></a></div>";
+		$("#gallery").append(divStr);
+
+		$("#inline").fancybox({
+			'hideOnContentClick': true
+		});
+
+
+	}
+	$("#gallery .galleryitem a").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+	});
+});
+
+
+$("#references").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_references.jpg)"); 
+	$("#gallery").empty()
+	var pics = [
+		{
+			title:'Poster',
+			src:'references_1.jpg'
+		},
+		{
+			title:'Poster',
+			src:'references_2.jpg'
+		},
+		{
+			title:'Header',
+			src:'references_3.jpg'
+		}
+	];
+	for(i in pics){
+		var divStr = "<div class=\"galleryitem\"><a rel=\"gallery1\" id=\"port" + i + "\" title=\"" + pics[i].title + "\" href=\"images/" + pics[i].src + "\"><img src=\"images/thumb_" + pics[i].src + "\"/></a></div>";
+		$("#gallery").append(divStr);
+
+		/* Using custom settings */
+		
+		$("#inline").fancybox({
+			'hideOnContentClick': true
+		});
+
+		/* Apply fancybox to multiple items */
+	}
+	$("#gallery .galleryitem a").fancybox({
+			'transitionIn'	:	'elastic',
+			'transitionOut'	:	'elastic',
+			'speedIn'		:	600, 
+			'speedOut'		:	200, 
+			'overlayShow'	:	false
+	});
+});
+
+
+$("#me").click(function(){
+	$("#imgplaceholder").css("background-image", "url(images/bck_me.jpg)"); 
+	$("#gallery").empty()
+});
+	
+
+$("#blog").click(function(){
+	window.open('http://kulturajanlo.blog.hu', 'kulturajanlo');
+ 	return false;
+});
+
+
+// $("#imgplaceholder").hover(
+// 	function(){
+// 	  $('#gallery').fadeIn('slow', function() {
+	 
+// 	  });
+// 	},
+// 	function(){
+// 	  $('#gallery').fadeOut('slow', function() {
+	 
+// 	  });
+// 	}
+// );
+
+$(document).ready(function() {
+
+	/* This is basic - uses default settings */
+	
+	
+	
+});
+
